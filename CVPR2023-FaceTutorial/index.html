@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CVPR'22 Deep AUC Maximization: From Algorithms to Practice</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>  
+
+<div class="container">
+
+  <table border="0" align="center">
+    <tr>
+      <td width="750" align="center" valign="middle"><h3>CVPR 2022 Tutorial on</h3>
+      <span class="title">Deep AUC Maximization: From Algorithms to Practice</span></td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center"><h3>8:45am - 12:00pm, June 20, 2022</h3></td>
+    </tr>
+  </table>
+ 
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Tutorial Lecturers</h2>
+  <br><br>
+    <div>
+      <div class="instructor">
+          <a href="https://homepage.cs.uiowa.edu/~tyng/" >
+        <div class="instructorphoto"><img src="photo/tianbao-yang.jpg"></div>
+        <div>Tianbao Yang<br>University of Iowa</div>
+        </a>
+        
+        
+      </div>
+
+      <div class="instructor">
+        <a href="https://www.albany.edu/~yy298919/">
+            <div class="instructorphoto"><img src="photo/yiming-ying.jpg"></div>
+            <div>Yiming Ying<br>University at Albany</div>
+        </a>
+         
+      </div>
+
+      <div class="instructor">
+          <a href="https://mingrliu.github.io/">
+        <div class="instructorphoto"><img src="photo/mingrui-liu.jpg"></div>
+        <div>Mingrui Liu<br>George Mason University</div>
+        </a>
+       
+      </div>
+
+      <div class="instructor">
+        <a href="https://research.google/people/106252/">
+            <div class="instructorphoto"><img src="photo/harikrishna-narasimhan.jpg"></div>
+            <div>Harikrishna Narasimhan<br>Google Research</div>
+        </a>
+        
+      </div>
+
+
+    </div>
+    <p></p> 
+</div>   
+
+</br>
+
+<div class="container">
+  <h2>Overview</h2>
+    <div class="overview">
+  Areas under the curves (AUC), including area under ROC curve (AUROC) and area under Precision-Recall curve (AUPRC) are widely used performance measures in many important computer vision and AI tasks and have extraordinarily varied applications in information retrieval, object detection, medical diagnosis, etc. AUROC is traditionally used as a measure for binary classification with imbalanced data. It has been used in many vision tasks, such as face verification, medical image classification. AUPRC or its variant called average precision (AP) is another popular measure for image/text retrieval, objective detection. Recently, there is a surge of research activities on developing efficient stochastic optimization algorithms and methods for deep AUC maximization, which directly minimize a surrogate loss of AUC for learning a deep neural network. The main objectives of this tutorial are three-fold:
+  <ul>
+    <li>We will introduce state-of-the-art algorithms and techniques in the emerging area of optimizing the AUC scores with big data and for deep learning, and discuss new directions and opportunities for future work. </li>
+    <li>We aim to provide a comprehensive algorithmic background that will allow AI/CV researchers and practitioners to use appropriate AUC maximization algorithms in their projects. </li>
+    <li>The tutorial will introduce recent successes of deep AUC maximization in medical image classification (e.g., 1st Place at CheXpert Competition) by presenting the methods, algorithms, and library that play important roles in such successes.</li>
+  </ul>
+
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Schedule</h2>
+    <div class="schedule">
+  <p>&#x2022; Introduction  (motivations, definitions, structure)  (8:45 - 9:00am, Yang) <a href="https://drive.google.com/file/d/14D6Zd0RQsCJISV0DCMKxHl7ahHkOuU2h/view?usp=sharing"> [video]</a> </p> 
+  <p>&#x2022; Old-school Methods (Batch and Online Methods) (9:00 - 9:15am, Ying)  <a href="https://drive.google.com/file/d/1GZqjW1k4UMvPWJjQjT8Zz8i0Taxn_VwC/view?usp=sharing">[video]</a> </p>
+        <p>&#x2022; AUC Maximization in the Era of Big Data (9:15 - 9:45am, Ying)  <a href="https://drive.google.com/file/d/1GZqjW1k4UMvPWJjQjT8Zz8i0Taxn_VwC/view?usp=sharing">[video]</a> </p>
+  <p>&#x2022; AUC Maximization in the Era of AI (9:45 - 10:15am, Liu) <a href="https://drive.google.com/file/d/1TdkWrLzwr1Vu9Eh_9EPcG1XqP4psLnx4/view?usp=sharing">[video]</a> </p>     
+        <p>&#x2022; Break (10:15 - 10:30am) </p>
+        <p>&#x2022; Partial AUC  Maximization: Old and New  (10:30 - 11:00am, Narasimhan) <a href="https://drive.google.com/file/d/1KXATj0qRK0UrGhaIYfGVCQmB-R2KWOPo/view?usp=sharing">[video]</a> </p>
+        <p>&#x2022; AP Maximization: Old and New (11:00 - 11:30am, Yang) <a href="https://drive.google.com/file/d/1Q4zlHJ_llhdBI3xfaPiLjjN1USeLTW_I/view?usp=sharing">[video]</a> </p>
+        <p>&#x2022; Library & Applications & Future Work (11:30 - 12:00pm, Yang) <a href="https://drive.google.com/file/d/1Q4zlHJ_llhdBI3xfaPiLjjN1USeLTW_I/view?usp=sharing">[video]</a> </p>
+    </div>  
+  
+</div>
+
+
+
+
+</br>
+
+<div class="containersmall">
+  <h2 style='text-align:center;'>Resources</h2>
+  <ul>
+   <li> <p> Slide for the tutorial. <a href="https://docs.google.com/presentation/d/1cSy4tDuYTnBflVbtuoQykDqBYDPmAVmWMx_VmbOilFg/edit?usp=sharing">[Slide]</p></a></li>
+   <li><p>LibAUC: A Deep Leanring Library for X-Risk Optimization. [<a href="https://libauc.org/">Website</a>][<a href="https://github.com/Optimization-AI/LibAUC">Github</a>] </p></li>
+   <li><p>AUC Maximization in the Era of Big Data and AI: A Survey. Tianbao Yang, Yiming Ying. [<a href="https://arxiv.org/pdf/2203.15046.pdf">PDF</a>] </p></li> 
+   <li>This year, June 19 and 20 marks Juneteenth, a US holiday commemorating the end of slavery in the US, and a holiday of special significance in the US South. We encourage attendees to learn more about Juneteenth and its historical context, and to join the city of New Orleans in celebrating the Juneteenth holiday. You can find out more information about Juneteenth here: <a href="https://cvpr2022.thecvf.com/recognizing-juneteenth">https://cvpr2022.thecvf.com/recognizing-juneteenth </a></li>  
+  </ul>
+</div>
+
+<p hidden><script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=LdxpRW9fITesfkHHPmLW9UCycw2sC4Hj-cyY6yuXnlw&cl=ffffff&w=a"></script></p>
+<!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
+</body>
+</html>
